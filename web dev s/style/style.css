@@ -1,0 +1,21 @@
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding:20px;
+    float: left;
+
+}
+nav{
+    background-color: black;
+    overflow: hidden;
+}
+nav a:hover{
+    color: rgb(64, 106, 203);
+}
+nav a:visited{
+    color: rgb(0, 136, 255);
+}
+.clip-path{
+    clip-path: circle(39.9% at 49% 47%);
+}

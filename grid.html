@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container{
+            display:grid;
+            grid-template-columns:repeat(4,1fr) ;
+         
+        }
+        .items{
+            background-color: lightcoral;
+            border:3px green solid;
+            border-radius:3px; 
+            margin: 3px;
+            padding: 3px;
+        }
+        #item-1{
+            grid-column-start:1;
+            grid-column-end: 2px;
+        }
+        .item-1-container{
+            display:grid ;
+            grid-template-columns: repeat(3,1fr);
+
+
+        }
+        .nested-item{
+            border:3px  greenyellow solid;
+            border-radius:3px;
+            margin: 3px;
+            padding: 3px;
+            background-color: darkviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item-1-container" id="item-1">
+            <div class="nested-item">dabbe mai dabba 1</div>
+            <div class="nested-item">dabbe mai dabba 2</div>
+            <div class="nested-item">dabbe mai dabba 3</div>
+        </div>
+        <div class="items">Dabbaa 2</div>
+        <div class="items">Dabbaa 3</div>
+        <div class="items">Dabbaa 4</div>
+        
+       
+    </div>
+    
+       
+
+
+    
+</body>
+</html>

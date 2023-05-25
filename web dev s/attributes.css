@@ -1,0 +1,10 @@
+li[class="a"]{
+    font-size: medium;
+    color: rgb(200, 21, 21);
+}
+li[class]{
+    font-weight: bold;
+}
+*{
+   background-color: powderblue;
+}
